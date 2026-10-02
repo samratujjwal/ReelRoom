@@ -1,0 +1,30 @@
+{
+  "author": "Antigravity AI",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.1",
+    "socket.io": "^4.7.5",
+    "zod": "^3.23.8"
+  },
+  "description": "Real-time synchronized watch party backend — WebSockets, OOP architecture, RBAC",
+  "keywords": [
+    "watch-party",
+    "socket.io",
+    "youtube",
+    "real-time",
+    "express",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "src/server.js",
+  "name": "reelroom-backend",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
